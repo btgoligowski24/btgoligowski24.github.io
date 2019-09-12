@@ -1,0 +1,145 @@
+body {
+    background-image: url("../images/qbkls/qbkls/qbkls.png");
+    background-color: lightslategray;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    background-color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#header {
+    border-bottom: 2px solid #ccc;
+    background-color: #fff;
+}
+
+#topName {
+    margin: 0;
+    padding: 1.5rem;
+}
+
+#topNav {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#topNav ul li {
+    border-right: 1px solid #ccc;
+}
+
+#topNav ul li.last, .borderReset {
+    border: none;
+}
+
+#topNav a:hover, #personalLinks li a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.nav-link {
+    padding: 0 1rem;
+}
+
+#topNav ul li a.last {
+    padding-right: 0;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#pageTitle {
+    color: #4aaaa5;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 1.25rem;
+}
+
+.paddingReset, .container {
+    padding: 0;
+}
+
+.content {
+    border: 1px solid #ddd;
+    margin: 20px auto 40px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.spacing {
+    margin: 1.5em 0 0 0;
+}
+
+#personalLinks {
+    list-style: disc;
+    line-height: 1.2em;
+    margin-left: 20px;
+    padding-inline-start: 0;
+}
+
+#personalLinks li a {
+    color: #aaa;
+}
+
+#submit {
+    color: #fff;
+    background-color: #4aaaa5;
+    border: none;
+}
+
+#submit:hover {
+    background-color: green;
+}
+
+.imgSize {
+    width: 165px;
+    height: 125px;
+}
+
+.imgLink, .card-img {
+    width:  inherit;
+    height: inherit;
+}
+
+.card {
+    margin: 0 1.5rem 2rem 0;
+}
+
+.card-img-overlay {
+    width: inherit;
+    margin: 0 auto;
+    text-align: center;
+    top: initial;
+    bottom: 0;
+    padding: 0;
+}
+
+.card-img-overlay h5 {
+    padding: .5rem;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.card-title {
+    margin-bottom: .5rem;
+}
+
+footer {
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    color: #ddd;
+    font-size: .75em;
+    padding: 25px 0 5px 0;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
